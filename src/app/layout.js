@@ -1,17 +1,16 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
+// RootLayout.js
 
-const inter = Inter({ subsets: ['latin'] })
+import './globals.css';
 
 export const metadata = {
   title: 'Triox',
   description: 'We Design & Develop Remarkable Websites.',
-}
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
