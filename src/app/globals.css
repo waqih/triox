@@ -18,27 +18,5 @@
 
 @font-face {
   font-family: 'MaisonNeue';
-  src: url('./font/MaisonNeue/MaisonNeue-Light.otf') format('opentype');
-  font-weight: 300; /* Light font weight */
-  font-style: normal;
 }
 
-body {
-  font-family: 'MaisonNeue', sans-serif;
-  color: #001010; 
-  font-weight: 400;
-  margin: 0;
-}
-
-.light {
-  font-family: 'MaisonNeue', sans-serif;
-  font-weight: 300; /* Light font weight */
-}
-.book {
-  font-family: 'MaisonNeue', sans-serif;
-  font-weight: 400; /* Light font weight */
-}
-.medium {
-  font-family: 'MaisonNeue', sans-serif;
-  font-weight: 500; /* Light font weight */
-}
