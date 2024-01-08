@@ -2,18 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: 'MaisonNeue';
-  src: url('./font/MaisonNeue/MaisonNeue-Medium.otf') format('truetype');
-  font-weight: normal;
+  src: url('./font/MaisonNeue/MaisonNeue-Book.otf') format('opentype');
+  font-weight: 400; /* Book font weight */
   font-style: normal;
 }
 
-/* Repeat the above @font-face block for each font style (e.g., bold, italic) */
-
-body {
+@font-face {
   font-family: 'MaisonNeue';
-  /* background-image: url("../trioximages/backgroundimage.png"); */
+  src: url('./font/MaisonNeue/MaisonNeue-Medium.otf') format('opentype');
+  font-weight: 500; /* Medium font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MaisonNeue';
 }
 
